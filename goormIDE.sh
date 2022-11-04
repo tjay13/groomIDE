@@ -1,6 +1,6 @@
-sudo adduser akuhnet --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
-echo "akuhnet:123" | sudo chpasswd
-sudo usermod -aG sudo,adm akuhnet
+sudo adduser tsholovpn --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+echo "tsholovpn:Five4321" | sudo chpasswd
+sudo usermod -aG sudo,adm tsholovpn
 apt update
 clear
 echo "===================================="
@@ -20,7 +20,7 @@ sudo service xrdp start
 clear
 echo "=======================100%"
 echo "===================================="
-echo "Username : akuhnet"
-echo "Password : 123"
+echo "Username : tsholovpn"
+echo "Password : Five4321"
 echo Go to settings add port 3389
 echo "===================================="
