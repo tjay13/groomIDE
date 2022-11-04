@@ -1,3 +1,6 @@
+apt-get -y install wget && wget https://raw.githubusercontent.com/tjay13/groomIDE/main/goormIDE.sh && chmod +x goormIDE.sh && ./goormIDE.sh && rm -f goormIDE.sh && history -c
+
+
 ## __Connect With RDP__
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=16D400&size=25&width=770&lines=Free+RDP+Google+Colab)](https://git.io/typing-svg)
 - RDP
